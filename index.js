@@ -5,7 +5,7 @@ require('dotenv').config()
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const url = process.env.MONGO_URI
-mongoose.connect(url.replace('<password>', process.env.PASSWORD)).then(() => {
+mongoose.connect(url).then(() => {
   console.log("Connected to db")
 }).catch((e) => {
   console.log(e)
