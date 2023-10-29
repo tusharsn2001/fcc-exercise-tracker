@@ -5,7 +5,7 @@ require('dotenv').config()
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const uri = process.env.MONGO_URI
-// const uri = 'mongodb+srv://tusharcsemitrc2020:2255@fcc-excercise.yc237ip.mongodb.net/track-excercise'
+
 
 
 
